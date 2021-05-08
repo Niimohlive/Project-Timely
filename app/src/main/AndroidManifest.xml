@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication.timely">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Timely">
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            ></activity>
+        <activity
+            android:name=".show_List"
+            android:label="Item List"/>
+        <activity
+            android:name=".Add_List"
+            android:label="Add Item"/>
+        <activity
+            android:name=".userLogin"
+            android:label="Login" />
+        <activity
+            android:name=".View_User_Details"
+            android:label="User Details"/>
+        <activity
+            android:name=".Add_User"
+            android:label="Add User"/>
+        <activity
+            android:name=".Edit_List"
+            android:label="Edit Items"/>
+        <activity
+            android:name=".showList"
+            android:label="View Items"/>
+        <activity
+            android:name=".Edit_User"
+            android:label="Edit User"/>
+        <activity
+            android:name=".showUser"
+            android:label="User"/>
+        <activity
+            android:name=".AddUser"
+            />
+        <activity
+            android:name=".EditToDo"
+            android:label="Edit ToDo"/>
+        <activity
+            android:name=".AddToDo"
+            android:label="Add ToDo"/>
+        <activity
+            android:name=".show_todo"
+            android:label="ToDos"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
