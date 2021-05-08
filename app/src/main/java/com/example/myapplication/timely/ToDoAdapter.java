@@ -25,7 +25,7 @@ public class ToDoAdapter extends ArrayAdapter<ToDo> {
         this.todos = todos;
     }
 
-    @NonNull
+    
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(context);
