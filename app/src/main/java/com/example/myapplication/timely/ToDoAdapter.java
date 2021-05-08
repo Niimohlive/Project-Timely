@@ -36,7 +36,7 @@ public class ToDoAdapter extends ArrayAdapter<ToDo> {
         ImageView imageView = row.findViewById(R.id.onGoing);
 
 
-        // todos [obj1,obj2,obj3]
+      
         ToDo toDo = todos.get(position);
         title.setText(toDo.getDate());
         description.setText(toDo.getDescription());
