@@ -82,7 +82,7 @@
         android:layout_width="97dp"
         android:layout_height="29dp"
         android:text="@string/viewNewUSer"
-        android:textColor="#000000"
+        android:textColor="#000006"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView3"
