@@ -253,7 +253,7 @@ public class DbHandler extends SQLiteOpenHelper {
 
         ContentValues contentValues = new ContentValues();
 
-        contentValues.put(DATE,toDo.getDate());
+        contentValues.put(DATE,toDo.getCurrentDate());
         contentValues.put(DESCRIPTION, toDo.getDescription());
         contentValues.put(STARTED,toDo.getStarted());
         contentValues.put(FINISHED,toDo.getFinished());
